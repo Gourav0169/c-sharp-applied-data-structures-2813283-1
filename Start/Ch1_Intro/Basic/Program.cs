@@ -2,9 +2,9 @@
 // Basic data structures
 
 // TODO: strings are collections of characters, and are immutable
-
-// char[] c1 = new char[] {'F','i','z','z','y',' ','B','u','z','z'};
-
+string str = "Gourav Dash";
+char[] c1 = new char[] {'F','i','z','z','y',' ','B','u','z','z'};
+string s2 =  new string(c1);
 
 // TODO: Be careful with string references
 
