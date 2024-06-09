@@ -5,9 +5,12 @@
 string str = "Gourav Dash  loves ";
 char[] c1 = new char[] {'F','i','z','z','y',' ','B','u','z','z'};
 string str2 =  new string(c1);
-str1  += str2;
+str  += str2;
 
-Console.Writeline  (str1);
+Console.WriteLine(str);
+
+str2 = str2.ToUpper();
+Console.WriteLine(str2);
 
 
 // TODO: Be careful with string references
